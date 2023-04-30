@@ -1,0 +1,712 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7CFBB65529FCE00D0013FD36 /* UserPostsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFBB65429FCE00D0013FD36 /* UserPostsController.swift */; };
+		7CFBB65729FCE2050013FD36 /* PostDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFBB65629FCE2050013FD36 /* PostDTO.swift */; };
+		7CFBB65929FCE85E0013FD36 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFBB65829FCE85E0013FD36 /* PostTableViewCell.swift */; };
+		7CFBB68429FD9CFB0013FD36 /* EmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFBB68329FD9CFB0013FD36 /* EmptyView.swift */; };
+		7CFBB68629FE22750013FD36 /* UserPostsControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFBB68529FE22750013FD36 /* UserPostsControllerTest.swift */; };
+		7CFC800529FAF45A00A9B277 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFC800429FAF45A00A9B277 /* AppDelegate.swift */; };
+		7CFC800729FAF45A00A9B277 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFC800629FAF45A00A9B277 /* SceneDelegate.swift */; };
+		7CFC800C29FAF45A00A9B277 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CFC800A29FAF45A00A9B277 /* Main.storyboard */; };
+		7CFC800F29FAF45A00A9B277 /* Ceiba.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7CFC800D29FAF45A00A9B277 /* Ceiba.xcdatamodeld */; };
+		7CFC801129FAF45C00A9B277 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CFC801029FAF45C00A9B277 /* Assets.xcassets */; };
+		7CFC801429FAF45C00A9B277 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CFC801229FAF45C00A9B277 /* LaunchScreen.storyboard */; };
+		7CFC801F29FAF45C00A9B277 /* CeibaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFC801E29FAF45C00A9B277 /* CeibaTests.swift */; };
+		7CFC802929FAF45C00A9B277 /* CeibaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFC802829FAF45C00A9B277 /* CeibaUITests.swift */; };
+		7CFC802B29FAF45C00A9B277 /* CeibaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFC802A29FAF45C00A9B277 /* CeibaUITestsLaunchTests.swift */; };
+		7CFC803929FAF53500A9B277 /* UserDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFC803829FAF53500A9B277 /* UserDTO.swift */; };
+		7CFC803B29FAF5CE00A9B277 /* CompanyDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFC803A29FAF5CE00A9B277 /* CompanyDTO.swift */; };
+		7CFC803D29FAF64900A9B277 /* AddressDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFC803C29FAF64900A9B277 /* AddressDTO.swift */; };
+		7CFC803F29FAF6F100A9B277 /* GeoDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFC803E29FAF6F100A9B277 /* GeoDTO.swift */; };
+		7CFC804529FAF95200A9B277 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFC804429FAF95200A9B277 /* Environment.swift */; };
+		7CFC804729FAFE5000A9B277 /* UsersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFC804629FAFE5000A9B277 /* UsersController.swift */; };
+		7CFC804B29FB01FF00A9B277 /* UsersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFC804A29FB01FF00A9B277 /* UsersTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7CFC801B29FAF45C00A9B277 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CFC7FF929FAF45A00A9B277 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CFC800029FAF45A00A9B277;
+			remoteInfo = Ceiba;
+		};
+		7CFC802529FAF45C00A9B277 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CFC7FF929FAF45A00A9B277 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CFC800029FAF45A00A9B277;
+			remoteInfo = Ceiba;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7CFBB65429FCE00D0013FD36 /* UserPostsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPostsController.swift; sourceTree = "<group>"; };
+		7CFBB65629FCE2050013FD36 /* PostDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDTO.swift; sourceTree = "<group>"; };
+		7CFBB65829FCE85E0013FD36 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		7CFBB68329FD9CFB0013FD36 /* EmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyView.swift; sourceTree = "<group>"; };
+		7CFBB68529FE22750013FD36 /* UserPostsControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPostsControllerTest.swift; sourceTree = "<group>"; };
+		7CFC800129FAF45A00A9B277 /* Ceiba.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ceiba.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CFC800429FAF45A00A9B277 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7CFC800629FAF45A00A9B277 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7CFC800B29FAF45A00A9B277 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7CFC800E29FAF45A00A9B277 /* Ceiba.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Ceiba.xcdatamodel; sourceTree = "<group>"; };
+		7CFC801029FAF45C00A9B277 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CFC801329FAF45C00A9B277 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7CFC801529FAF45C00A9B277 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CFC801A29FAF45C00A9B277 /* CeibaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CeibaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CFC801E29FAF45C00A9B277 /* CeibaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeibaTests.swift; sourceTree = "<group>"; };
+		7CFC802429FAF45C00A9B277 /* CeibaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CeibaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CFC802829FAF45C00A9B277 /* CeibaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeibaUITests.swift; sourceTree = "<group>"; };
+		7CFC802A29FAF45C00A9B277 /* CeibaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeibaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7CFC803829FAF53500A9B277 /* UserDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDTO.swift; sourceTree = "<group>"; };
+		7CFC803A29FAF5CE00A9B277 /* CompanyDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyDTO.swift; sourceTree = "<group>"; };
+		7CFC803C29FAF64900A9B277 /* AddressDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressDTO.swift; sourceTree = "<group>"; };
+		7CFC803E29FAF6F100A9B277 /* GeoDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoDTO.swift; sourceTree = "<group>"; };
+		7CFC804429FAF95200A9B277 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		7CFC804629FAFE5000A9B277 /* UsersController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersController.swift; sourceTree = "<group>"; };
+		7CFC804A29FB01FF00A9B277 /* UsersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CFC7FFE29FAF45A00A9B277 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CFC801729FAF45C00A9B277 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CFC802129FAF45C00A9B277 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CFBB66A29FCFDF20013FD36 /* Core Data Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Core Data Models";
+			sourceTree = "<group>";
+		};
+		7CFC7FF829FAF45A00A9B277 = {
+			isa = PBXGroup;
+			children = (
+				7CFC800329FAF45A00A9B277 /* Ceiba */,
+				7CFC801D29FAF45C00A9B277 /* CeibaTests */,
+				7CFC802729FAF45C00A9B277 /* CeibaUITests */,
+				7CFC800229FAF45A00A9B277 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7CFC800229FAF45A00A9B277 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CFC800129FAF45A00A9B277 /* Ceiba.app */,
+				7CFC801A29FAF45C00A9B277 /* CeibaTests.xctest */,
+				7CFC802429FAF45C00A9B277 /* CeibaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CFC800329FAF45A00A9B277 /* Ceiba */ = {
+			isa = PBXGroup;
+			children = (
+				7CFC804329FAF81100A9B277 /* Controllers */,
+				7CFC804229FAF7FF00A9B277 /* Resources */,
+				7CFC804129FAF7E100A9B277 /* Views */,
+				7CFC804029FAF7CD00A9B277 /* App Delegates */,
+				7CFC803729FAF46B00A9B277 /* Models */,
+			);
+			path = Ceiba;
+			sourceTree = "<group>";
+		};
+		7CFC801D29FAF45C00A9B277 /* CeibaTests */ = {
+			isa = PBXGroup;
+			children = (
+				7CFC801E29FAF45C00A9B277 /* CeibaTests.swift */,
+				7CFBB68529FE22750013FD36 /* UserPostsControllerTest.swift */,
+			);
+			path = CeibaTests;
+			sourceTree = "<group>";
+		};
+		7CFC802729FAF45C00A9B277 /* CeibaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7CFC802829FAF45C00A9B277 /* CeibaUITests.swift */,
+				7CFC802A29FAF45C00A9B277 /* CeibaUITestsLaunchTests.swift */,
+			);
+			path = CeibaUITests;
+			sourceTree = "<group>";
+		};
+		7CFC803729FAF46B00A9B277 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7CFBB66A29FCFDF20013FD36 /* Core Data Models */,
+				7CFC803829FAF53500A9B277 /* UserDTO.swift */,
+				7CFC803A29FAF5CE00A9B277 /* CompanyDTO.swift */,
+				7CFC803C29FAF64900A9B277 /* AddressDTO.swift */,
+				7CFC803E29FAF6F100A9B277 /* GeoDTO.swift */,
+				7CFBB65629FCE2050013FD36 /* PostDTO.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7CFC804029FAF7CD00A9B277 /* App Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				7CFC800429FAF45A00A9B277 /* AppDelegate.swift */,
+				7CFC800629FAF45A00A9B277 /* SceneDelegate.swift */,
+			);
+			path = "App Delegates";
+			sourceTree = "<group>";
+		};
+		7CFC804129FAF7E100A9B277 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7CFC801229FAF45C00A9B277 /* LaunchScreen.storyboard */,
+				7CFC800A29FAF45A00A9B277 /* Main.storyboard */,
+				7CFC804A29FB01FF00A9B277 /* UsersTableViewCell.swift */,
+				7CFBB65829FCE85E0013FD36 /* PostTableViewCell.swift */,
+				7CFBB68329FD9CFB0013FD36 /* EmptyView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7CFC804229FAF7FF00A9B277 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7CFC801029FAF45C00A9B277 /* Assets.xcassets */,
+				7CFC801529FAF45C00A9B277 /* Info.plist */,
+				7CFC800D29FAF45A00A9B277 /* Ceiba.xcdatamodeld */,
+				7CFC804429FAF95200A9B277 /* Environment.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7CFC804329FAF81100A9B277 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7CFC804629FAFE5000A9B277 /* UsersController.swift */,
+				7CFBB65429FCE00D0013FD36 /* UserPostsController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CFC800029FAF45A00A9B277 /* Ceiba */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CFC802E29FAF45C00A9B277 /* Build configuration list for PBXNativeTarget "Ceiba" */;
+			buildPhases = (
+				7CFC7FFD29FAF45A00A9B277 /* Sources */,
+				7CFC7FFE29FAF45A00A9B277 /* Frameworks */,
+				7CFC7FFF29FAF45A00A9B277 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ceiba;
+			productName = Ceiba;
+			productReference = 7CFC800129FAF45A00A9B277 /* Ceiba.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7CFC801929FAF45C00A9B277 /* CeibaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CFC803129FAF45C00A9B277 /* Build configuration list for PBXNativeTarget "CeibaTests" */;
+			buildPhases = (
+				7CFC801629FAF45C00A9B277 /* Sources */,
+				7CFC801729FAF45C00A9B277 /* Frameworks */,
+				7CFC801829FAF45C00A9B277 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CFC801C29FAF45C00A9B277 /* PBXTargetDependency */,
+			);
+			name = CeibaTests;
+			productName = CeibaTests;
+			productReference = 7CFC801A29FAF45C00A9B277 /* CeibaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7CFC802329FAF45C00A9B277 /* CeibaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CFC803429FAF45C00A9B277 /* Build configuration list for PBXNativeTarget "CeibaUITests" */;
+			buildPhases = (
+				7CFC802029FAF45C00A9B277 /* Sources */,
+				7CFC802129FAF45C00A9B277 /* Frameworks */,
+				7CFC802229FAF45C00A9B277 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CFC802629FAF45C00A9B277 /* PBXTargetDependency */,
+			);
+			name = CeibaUITests;
+			productName = CeibaUITests;
+			productReference = 7CFC802429FAF45C00A9B277 /* CeibaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CFC7FF929FAF45A00A9B277 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					7CFC800029FAF45A00A9B277 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					7CFC801929FAF45C00A9B277 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 7CFC800029FAF45A00A9B277;
+					};
+					7CFC802329FAF45C00A9B277 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 7CFC800029FAF45A00A9B277;
+					};
+				};
+			};
+			buildConfigurationList = 7CFC7FFC29FAF45A00A9B277 /* Build configuration list for PBXProject "Ceiba" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CFC7FF829FAF45A00A9B277;
+			productRefGroup = 7CFC800229FAF45A00A9B277 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CFC800029FAF45A00A9B277 /* Ceiba */,
+				7CFC801929FAF45C00A9B277 /* CeibaTests */,
+				7CFC802329FAF45C00A9B277 /* CeibaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CFC7FFF29FAF45A00A9B277 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CFC801429FAF45C00A9B277 /* LaunchScreen.storyboard in Resources */,
+				7CFC801129FAF45C00A9B277 /* Assets.xcassets in Resources */,
+				7CFC800C29FAF45A00A9B277 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CFC801829FAF45C00A9B277 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CFC802229FAF45C00A9B277 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CFC7FFD29FAF45A00A9B277 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CFBB65529FCE00D0013FD36 /* UserPostsController.swift in Sources */,
+				7CFBB65729FCE2050013FD36 /* PostDTO.swift in Sources */,
+				7CFBB65929FCE85E0013FD36 /* PostTableViewCell.swift in Sources */,
+				7CFC803F29FAF6F100A9B277 /* GeoDTO.swift in Sources */,
+				7CFC803B29FAF5CE00A9B277 /* CompanyDTO.swift in Sources */,
+				7CFC800529FAF45A00A9B277 /* AppDelegate.swift in Sources */,
+				7CFC804529FAF95200A9B277 /* Environment.swift in Sources */,
+				7CFC803D29FAF64900A9B277 /* AddressDTO.swift in Sources */,
+				7CFC804729FAFE5000A9B277 /* UsersController.swift in Sources */,
+				7CFC800F29FAF45A00A9B277 /* Ceiba.xcdatamodeld in Sources */,
+				7CFC803929FAF53500A9B277 /* UserDTO.swift in Sources */,
+				7CFC800729FAF45A00A9B277 /* SceneDelegate.swift in Sources */,
+				7CFBB68429FD9CFB0013FD36 /* EmptyView.swift in Sources */,
+				7CFC804B29FB01FF00A9B277 /* UsersTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CFC801629FAF45C00A9B277 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CFBB68629FE22750013FD36 /* UserPostsControllerTest.swift in Sources */,
+				7CFC801F29FAF45C00A9B277 /* CeibaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CFC802029FAF45C00A9B277 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CFC802929FAF45C00A9B277 /* CeibaUITests.swift in Sources */,
+				7CFC802B29FAF45C00A9B277 /* CeibaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7CFC801C29FAF45C00A9B277 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CFC800029FAF45A00A9B277 /* Ceiba */;
+			targetProxy = 7CFC801B29FAF45C00A9B277 /* PBXContainerItemProxy */;
+		};
+		7CFC802629FAF45C00A9B277 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CFC800029FAF45A00A9B277 /* Ceiba */;
+			targetProxy = 7CFC802529FAF45C00A9B277 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7CFC800A29FAF45A00A9B277 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CFC800B29FAF45A00A9B277 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7CFC801229FAF45C00A9B277 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CFC801329FAF45C00A9B277 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CFC802C29FAF45C00A9B277 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7CFC802D29FAF45C00A9B277 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CFC802F29FAF45C00A9B277 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Ceiba/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Laurent-Castaneda.Ceiba";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7CFC803029FAF45C00A9B277 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Ceiba/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Laurent-Castaneda.Ceiba";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7CFC803229FAF45C00A9B277 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Laurent-Castaneda.CeibaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ceiba.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ceiba";
+			};
+			name = Debug;
+		};
+		7CFC803329FAF45C00A9B277 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Laurent-Castaneda.CeibaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ceiba.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ceiba";
+			};
+			name = Release;
+		};
+		7CFC803529FAF45C00A9B277 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Laurent-Castaneda.CeibaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ceiba;
+			};
+			name = Debug;
+		};
+		7CFC803629FAF45C00A9B277 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Laurent-Castaneda.CeibaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ceiba;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CFC7FFC29FAF45A00A9B277 /* Build configuration list for PBXProject "Ceiba" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CFC802C29FAF45C00A9B277 /* Debug */,
+				7CFC802D29FAF45C00A9B277 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CFC802E29FAF45C00A9B277 /* Build configuration list for PBXNativeTarget "Ceiba" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CFC802F29FAF45C00A9B277 /* Debug */,
+				7CFC803029FAF45C00A9B277 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CFC803129FAF45C00A9B277 /* Build configuration list for PBXNativeTarget "CeibaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CFC803229FAF45C00A9B277 /* Debug */,
+				7CFC803329FAF45C00A9B277 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CFC803429FAF45C00A9B277 /* Build configuration list for PBXNativeTarget "CeibaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CFC803529FAF45C00A9B277 /* Debug */,
+				7CFC803629FAF45C00A9B277 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7CFC800D29FAF45A00A9B277 /* Ceiba.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7CFC800E29FAF45A00A9B277 /* Ceiba.xcdatamodel */,
+			);
+			currentVersion = 7CFC800E29FAF45A00A9B277 /* Ceiba.xcdatamodel */;
+			path = Ceiba.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7CFC7FF929FAF45A00A9B277 /* Project object */;
+}
