@@ -13,7 +13,7 @@ struct UserDTO: Codable{
     let username: String
     let email: String
     let phone: String
-    var isSync: Bool?
+
 //    let address: AddressDTO
 //    let website: String
 //    let company: CompanyDTO

@@ -7,10 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C61517B2A2C5BB7006CA2C8 /* UserPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C61517A2A2C5BB7006CA2C8 /* UserPresenter.swift */; };
+		7C61517D2A2C751C006CA2C8 /* UserPostPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C61517C2A2C751C006CA2C8 /* UserPostPresenter.swift */; };
+		7C61517F2A2C86F5006CA2C8 /* MenssageEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C61517E2A2C86F5006CA2C8 /* MenssageEnum.swift */; };
+		7C6151812A2C88C0006CA2C8 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6151802A2C88C0006CA2C8 /* ErrorView.swift */; };
+		7CD3977E2A04D0ED00966030 /* UserServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD3977D2A04D0ED00966030 /* UserServices.swift */; };
+		7CD397802A04D62300966030 /* MethodTypeHttp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD3977F2A04D62300966030 /* MethodTypeHttp.swift */; };
+		7CD397842A04D97900966030 /* BaseServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD397832A04D97900966030 /* BaseServices.swift */; };
+		7CD397872A04E90700966030 /* DataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD397862A04E90700966030 /* DataParser.swift */; };
+		7CD3978B2A04F59000966030 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD3978A2A04F59000966030 /* DataSource.swift */; };
+		7CD3978D2A04F85800966030 /* UserEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD3978C2A04F85800966030 /* UserEntity.swift */; };
+		7CDBF5662A2D8CD400D6D6F4 /* LoadDataProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDBF5652A2D8CD400D6D6F4 /* LoadDataProtocol.swift */; };
+		7CDBF5692A2DA64200D6D6F4 /* SkeletonView in Frameworks */ = {isa = PBXBuildFile; productRef = 7CDBF5682A2DA64200D6D6F4 /* SkeletonView */; };
+		7CDBF56B2A2DB6FF00D6D6F4 /* PostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDBF56A2A2DB6FF00D6D6F4 /* PostService.swift */; };
+		7CDBF56D2A2DCB0600D6D6F4 /* PostEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDBF56C2A2DCB0600D6D6F4 /* PostEntity.swift */; };
 		7CFBB65529FCE00D0013FD36 /* UserPostsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFBB65429FCE00D0013FD36 /* UserPostsController.swift */; };
 		7CFBB65729FCE2050013FD36 /* PostDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFBB65629FCE2050013FD36 /* PostDTO.swift */; };
 		7CFBB65929FCE85E0013FD36 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFBB65829FCE85E0013FD36 /* PostTableViewCell.swift */; };
-		7CFBB68429FD9CFB0013FD36 /* EmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFBB68329FD9CFB0013FD36 /* EmptyView.swift */; };
+		7CFBB68429FD9CFB0013FD36 /* ShowMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFBB68329FD9CFB0013FD36 /* ShowMessageView.swift */; };
 		7CFBB68629FE22750013FD36 /* UserPostsControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFBB68529FE22750013FD36 /* UserPostsControllerTest.swift */; };
 		7CFC800529FAF45A00A9B277 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFC800429FAF45A00A9B277 /* AppDelegate.swift */; };
 		7CFC800729FAF45A00A9B277 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFC800629FAF45A00A9B277 /* SceneDelegate.swift */; };
@@ -48,10 +62,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7C61517A2A2C5BB7006CA2C8 /* UserPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPresenter.swift; sourceTree = "<group>"; };
+		7C61517C2A2C751C006CA2C8 /* UserPostPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPostPresenter.swift; sourceTree = "<group>"; };
+		7C61517E2A2C86F5006CA2C8 /* MenssageEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenssageEnum.swift; sourceTree = "<group>"; };
+		7C6151802A2C88C0006CA2C8 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		7CD3977D2A04D0ED00966030 /* UserServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserServices.swift; sourceTree = "<group>"; };
+		7CD3977F2A04D62300966030 /* MethodTypeHttp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MethodTypeHttp.swift; sourceTree = "<group>"; };
+		7CD397832A04D97900966030 /* BaseServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseServices.swift; sourceTree = "<group>"; };
+		7CD397862A04E90700966030 /* DataParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataParser.swift; sourceTree = "<group>"; };
+		7CD3978A2A04F59000966030 /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		7CD3978C2A04F85800966030 /* UserEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserEntity.swift; sourceTree = "<group>"; };
+		7CDBF5652A2D8CD400D6D6F4 /* LoadDataProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadDataProtocol.swift; sourceTree = "<group>"; };
+		7CDBF56A2A2DB6FF00D6D6F4 /* PostService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostService.swift; sourceTree = "<group>"; };
+		7CDBF56C2A2DCB0600D6D6F4 /* PostEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostEntity.swift; sourceTree = "<group>"; };
 		7CFBB65429FCE00D0013FD36 /* UserPostsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPostsController.swift; sourceTree = "<group>"; };
 		7CFBB65629FCE2050013FD36 /* PostDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDTO.swift; sourceTree = "<group>"; };
 		7CFBB65829FCE85E0013FD36 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
-		7CFBB68329FD9CFB0013FD36 /* EmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyView.swift; sourceTree = "<group>"; };
+		7CFBB68329FD9CFB0013FD36 /* ShowMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowMessageView.swift; sourceTree = "<group>"; };
 		7CFBB68529FE22750013FD36 /* UserPostsControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPostsControllerTest.swift; sourceTree = "<group>"; };
 		7CFC800129FAF45A00A9B277 /* Ceiba.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ceiba.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CFC800429FAF45A00A9B277 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CDBF5692A2DA64200D6D6F4 /* SkeletonView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,11 +128,62 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7CFBB66A29FCFDF20013FD36 /* Core Data Models */ = {
+		7CB2B0AC2A2C129600900F25 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
+				7C61517A2A2C5BB7006CA2C8 /* UserPresenter.swift */,
+				7C61517C2A2C751C006CA2C8 /* UserPostPresenter.swift */,
 			);
-			path = "Core Data Models";
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		7CD397812A04D62C00966030 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				7CD3977F2A04D62300966030 /* MethodTypeHttp.swift */,
+				7C61517E2A2C86F5006CA2C8 /* MenssageEnum.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		7CD397822A04D96500966030 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7CD3977D2A04D0ED00966030 /* UserServices.swift */,
+				7CD397832A04D97900966030 /* BaseServices.swift */,
+				7CDBF56A2A2DB6FF00D6D6F4 /* PostService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		7CD397852A04E8E000966030 /* DTO */ = {
+			isa = PBXGroup;
+			children = (
+				7CFC803829FAF53500A9B277 /* UserDTO.swift */,
+				7CFC803A29FAF5CE00A9B277 /* CompanyDTO.swift */,
+				7CFC803C29FAF64900A9B277 /* AddressDTO.swift */,
+				7CFC803E29FAF6F100A9B277 /* GeoDTO.swift */,
+				7CFBB65629FCE2050013FD36 /* PostDTO.swift */,
+			);
+			path = DTO;
+			sourceTree = "<group>";
+		};
+		7CD397882A04F54B00966030 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				7CD3978C2A04F85800966030 /* UserEntity.swift */,
+				7CDBF56C2A2DCB0600D6D6F4 /* PostEntity.swift */,
+			);
+			path = "Core Data";
+			sourceTree = "<group>";
+		};
+		7CD397892A04F57E00966030 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				7CD3978A2A04F59000966030 /* DataSource.swift */,
+				7CDBF5652A2D8CD400D6D6F4 /* LoadDataProtocol.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 		7CFC7FF829FAF45A00A9B277 = {
@@ -130,6 +209,7 @@
 		7CFC800329FAF45A00A9B277 /* Ceiba */ = {
 			isa = PBXGroup;
 			children = (
+				7CB2B0AC2A2C129600900F25 /* Presenter */,
 				7CFC804329FAF81100A9B277 /* Controllers */,
 				7CFC804229FAF7FF00A9B277 /* Resources */,
 				7CFC804129FAF7E100A9B277 /* Views */,
@@ -160,12 +240,12 @@
 		7CFC803729FAF46B00A9B277 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				7CFBB66A29FCFDF20013FD36 /* Core Data Models */,
-				7CFC803829FAF53500A9B277 /* UserDTO.swift */,
-				7CFC803A29FAF5CE00A9B277 /* CompanyDTO.swift */,
-				7CFC803C29FAF64900A9B277 /* AddressDTO.swift */,
-				7CFC803E29FAF6F100A9B277 /* GeoDTO.swift */,
-				7CFBB65629FCE2050013FD36 /* PostDTO.swift */,
+				7CD397892A04F57E00966030 /* Protocols */,
+				7CD397882A04F54B00966030 /* Core Data */,
+				7CD397852A04E8E000966030 /* DTO */,
+				7CD397822A04D96500966030 /* Services */,
+				7CD397812A04D62C00966030 /* Enum */,
+				7CD397862A04E90700966030 /* DataParser.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -182,11 +262,12 @@
 		7CFC804129FAF7E100A9B277 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				7CFC801229FAF45C00A9B277 /* LaunchScreen.storyboard */,
-				7CFC800A29FAF45A00A9B277 /* Main.storyboard */,
+				7CFC804629FAFE5000A9B277 /* UsersController.swift */,
+				7CFBB65429FCE00D0013FD36 /* UserPostsController.swift */,
 				7CFC804A29FB01FF00A9B277 /* UsersTableViewCell.swift */,
 				7CFBB65829FCE85E0013FD36 /* PostTableViewCell.swift */,
-				7CFBB68329FD9CFB0013FD36 /* EmptyView.swift */,
+				7CFBB68329FD9CFB0013FD36 /* ShowMessageView.swift */,
+				7C6151802A2C88C0006CA2C8 /* ErrorView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -194,6 +275,8 @@
 		7CFC804229FAF7FF00A9B277 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				7CFC801229FAF45C00A9B277 /* LaunchScreen.storyboard */,
+				7CFC800A29FAF45A00A9B277 /* Main.storyboard */,
 				7CFC801029FAF45C00A9B277 /* Assets.xcassets */,
 				7CFC801529FAF45C00A9B277 /* Info.plist */,
 				7CFC800D29FAF45A00A9B277 /* Ceiba.xcdatamodeld */,
@@ -205,8 +288,6 @@
 		7CFC804329FAF81100A9B277 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				7CFC804629FAFE5000A9B277 /* UsersController.swift */,
-				7CFBB65429FCE00D0013FD36 /* UserPostsController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -227,6 +308,9 @@
 			dependencies = (
 			);
 			name = Ceiba;
+			packageProductDependencies = (
+				7CDBF5682A2DA64200D6D6F4 /* SkeletonView */,
+			);
 			productName = Ceiba;
 			productReference = 7CFC800129FAF45A00A9B277 /* Ceiba.app */;
 			productType = "com.apple.product-type.application";
@@ -299,6 +383,9 @@
 				Base,
 			);
 			mainGroup = 7CFC7FF829FAF45A00A9B277;
+			packageReferences = (
+				7CDBF5672A2DA64200D6D6F4 /* XCRemoteSwiftPackageReference "SkeletonView" */,
+			);
 			productRefGroup = 7CFC800229FAF45A00A9B277 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -342,19 +429,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CD3978D2A04F85800966030 /* UserEntity.swift in Sources */,
 				7CFBB65529FCE00D0013FD36 /* UserPostsController.swift in Sources */,
 				7CFBB65729FCE2050013FD36 /* PostDTO.swift in Sources */,
 				7CFBB65929FCE85E0013FD36 /* PostTableViewCell.swift in Sources */,
 				7CFC803F29FAF6F100A9B277 /* GeoDTO.swift in Sources */,
 				7CFC803B29FAF5CE00A9B277 /* CompanyDTO.swift in Sources */,
 				7CFC800529FAF45A00A9B277 /* AppDelegate.swift in Sources */,
+				7CDBF56D2A2DCB0600D6D6F4 /* PostEntity.swift in Sources */,
+				7C6151812A2C88C0006CA2C8 /* ErrorView.swift in Sources */,
+				7CD3978B2A04F59000966030 /* DataSource.swift in Sources */,
 				7CFC804529FAF95200A9B277 /* Environment.swift in Sources */,
 				7CFC803D29FAF64900A9B277 /* AddressDTO.swift in Sources */,
+				7CD397872A04E90700966030 /* DataParser.swift in Sources */,
+				7CD3977E2A04D0ED00966030 /* UserServices.swift in Sources */,
 				7CFC804729FAFE5000A9B277 /* UsersController.swift in Sources */,
+				7C61517D2A2C751C006CA2C8 /* UserPostPresenter.swift in Sources */,
 				7CFC800F29FAF45A00A9B277 /* Ceiba.xcdatamodeld in Sources */,
+				7CD397802A04D62300966030 /* MethodTypeHttp.swift in Sources */,
 				7CFC803929FAF53500A9B277 /* UserDTO.swift in Sources */,
 				7CFC800729FAF45A00A9B277 /* SceneDelegate.swift in Sources */,
-				7CFBB68429FD9CFB0013FD36 /* EmptyView.swift in Sources */,
+				7C61517B2A2C5BB7006CA2C8 /* UserPresenter.swift in Sources */,
+				7CFBB68429FD9CFB0013FD36 /* ShowMessageView.swift in Sources */,
+				7CD397842A04D97900966030 /* BaseServices.swift in Sources */,
+				7C61517F2A2C86F5006CA2C8 /* MenssageEnum.swift in Sources */,
+				7CDBF56B2A2DB6FF00D6D6F4 /* PostService.swift in Sources */,
+				7CDBF5662A2D8CD400D6D6F4 /* LoadDataProtocol.swift in Sources */,
 				7CFC804B29FB01FF00A9B277 /* UsersTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -694,6 +794,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7CDBF5672A2DA64200D6D6F4 /* XCRemoteSwiftPackageReference "SkeletonView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Juanpe/SkeletonView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7CDBF5682A2DA64200D6D6F4 /* SkeletonView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7CDBF5672A2DA64200D6D6F4 /* XCRemoteSwiftPackageReference "SkeletonView" */;
+			productName = SkeletonView;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		7CFC800D29FAF45A00A9B277 /* Ceiba.xcdatamodeld */ = {

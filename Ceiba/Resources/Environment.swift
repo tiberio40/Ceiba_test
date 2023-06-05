@@ -14,12 +14,4 @@ struct Environment {
     init(){
         self.urlBase = "https://jsonplaceholder.typicode.com"
     }
-    
-    func getUsers() -> String {
-        return urlBase + "/users"
-    }
-    
-    func getPostByUser(userId: Int) -> String {
-        return urlBase + "/posts?userId=\(userId)"
-    }
 }
